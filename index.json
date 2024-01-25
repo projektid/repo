@@ -4296,10 +4296,10 @@
   {
     "name": "Tachiyomi: Shinigami",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigami",
-    "apk": "tachiyomi-id.shinigami-v1.4.45.apk",
+    "apk": "tachiyomi-id.shinigami-v1.4.46.apk",
     "lang": "id",
-    "code": 45,
-    "version": "1.4.45",
+    "code": 46,
+    "version": "1.4.46",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4395,27 +4395,6 @@
         "baseUrl": "https://shiyurasub.blogspot.com",
         "versionId": 1,
         "hasCloudflare": 0
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: SISI GELAP",
-    "pkg": "eu.kanade.tachiyomi.extension.id.sisigelap",
-    "apk": "tachiyomi-id.sisigelap-v1.4.37.apk",
-    "lang": "id",
-    "code": 37,
-    "version": "1.4.37",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "SISI GELAP",
-        "lang": "id",
-        "id": "9078212518079369042",
-        "baseUrl": "https://sigel.asia",
-        "versionId": 1,
-        "hasCloudflare": 1
       }
     ]
   },
