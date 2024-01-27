@@ -2635,27 +2635,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Asupan Komik",
-    "pkg": "eu.kanade.tachiyomi.extension.id.asupankomik",
-    "apk": "tachiyomi-id.asupankomik-v1.4.9.apk",
-    "lang": "id",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "Asupan Komik",
-        "lang": "id",
-        "id": "2773504896410251445",
-        "baseUrl": "https://www.asupankomik.my.id",
-        "versionId": 1,
-        "hasCloudflare": 0
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: BacaKomik",
     "pkg": "eu.kanade.tachiyomi.extension.id.bacakomik",
     "apk": "tachiyomi-id.bacakomik-v1.4.10.apk",
