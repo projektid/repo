@@ -3391,6 +3391,27 @@
     ]
   },
   {
+    "name": "Tachiyomi: Komik Zoid",
+    "pkg": "eu.kanade.tachiyomi.extension.id.komikzoid",
+    "apk": "tachiyomi-id.komikzoid-v1.4.1.apk",
+    "lang": "id",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Komik Zoid",
+        "lang": "id",
+        "id": "6471341976763445958",
+        "baseUrl": "https://komikzoid.id",
+        "versionId": 1,
+        "hasCloudflare": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: KumaPoi",
     "pkg": "eu.kanade.tachiyomi.extension.id.kumapoi",
     "apk": "tachiyomi-id.kumapoi-v1.4.31.apk",
@@ -3960,10 +3981,10 @@
   {
     "name": "Tachiyomi: Neumanga",
     "pkg": "eu.kanade.tachiyomi.extension.id.neumanga",
-    "apk": "tachiyomi-id.neumanga-v1.4.1.apk",
+    "apk": "tachiyomi-id.neumanga-v1.4.2.apk",
     "lang": "id",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -3972,7 +3993,7 @@
         "name": "Neumanga",
         "lang": "id",
         "id": "4922018832509682712",
-        "baseUrl": "https://neumanga.net",
+        "baseUrl": "https://neumanga.xyz",
         "versionId": 1,
         "hasCloudflare": 1
       }
@@ -4233,10 +4254,10 @@
   {
     "name": "Tachiyomi: Sekte Komik",
     "pkg": "eu.kanade.tachiyomi.extension.id.sektekomik",
-    "apk": "tachiyomi-id.sektekomik-v1.4.26.apk",
+    "apk": "tachiyomi-id.sektekomik-v1.4.27.apk",
     "lang": "id",
-    "code": 26,
-    "version": "1.4.26",
+    "code": 27,
+    "version": "1.4.27",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4245,7 +4266,7 @@
         "name": "Sekte Komik",
         "lang": "id",
         "id": "7866629035053218469",
-        "baseUrl": "https://sektekomik.com",
+        "baseUrl": "https://sektekomik.xyz",
         "versionId": 1,
         "hasCloudflare": 1
       }
