@@ -853,6 +853,27 @@
     ]
   },
   {
+    "name": "Tachiyomi: Coomer",
+    "pkg": "eu.kanade.tachiyomi.extension.all.coomer",
+    "apk": "tachiyomi-all.coomer-v1.4.9.apk",
+    "lang": "all",
+    "code": 9,
+    "version": "1.4.9",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Coomer",
+        "lang": "all",
+        "id": "8715899195746116471",
+        "baseUrl": "https://coomer.su",
+        "versionId": 1,
+        "hasCloudflare": 0
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Danbooru",
     "pkg": "eu.kanade.tachiyomi.extension.all.danbooru",
     "apk": "tachiyomi-all.danbooru-v1.4.1.apk",
@@ -1376,6 +1397,27 @@
         "baseUrl": "https://hitomi.la",
         "versionId": 1,
         "hasCloudflare": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Kemono",
+    "pkg": "eu.kanade.tachiyomi.extension.all.kemono",
+    "apk": "tachiyomi-all.kemono-v1.4.9.apk",
+    "lang": "all",
+    "code": 9,
+    "version": "1.4.9",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Kemono",
+        "lang": "all",
+        "id": "2011050813940802605",
+        "baseUrl": "https://kemono.su",
+        "versionId": 1,
+        "hasCloudflare": 0
       }
     ]
   },
@@ -2700,10 +2742,10 @@
   {
     "name": "Tachiyomi: Comic Fx",
     "pkg": "eu.kanade.tachiyomi.extension.id.comicfx",
-    "apk": "tachiyomi-id.comicfx-v1.4.5.apk",
+    "apk": "tachiyomi-id.comicfx-v1.4.6.apk",
     "lang": "id",
-    "code": 5,
-    "version": "1.4.5",
+    "code": 6,
+    "version": "1.4.6",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
