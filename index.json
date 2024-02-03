@@ -3435,10 +3435,10 @@
   {
     "name": "Tachiyomi: Komik Zoid",
     "pkg": "eu.kanade.tachiyomi.extension.id.komikzoid",
-    "apk": "tachiyomi-id.komikzoid-v1.4.1.apk",
+    "apk": "tachiyomi-id.komikzoid-v1.4.2.apk",
     "lang": "id",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4300,6 +4300,27 @@
     "lang": "id",
     "code": 27,
     "version": "1.4.27",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Sekte Komik",
+        "lang": "id",
+        "id": "7866629035053218469",
+        "baseUrl": "https://sektekomik.xyz",
+        "versionId": 1,
+        "hasCloudflare": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Sekte Komik",
+    "pkg": "eu.kanade.tachiyomi.extension.id.sektekomik",
+    "apk": "tachiyomi-id.sektekomik-v1.4.2.apk",
+    "lang": "id",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
