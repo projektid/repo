@@ -3981,10 +3981,10 @@
   {
     "name": "Tachiyomi: Natsu",
     "pkg": "eu.kanade.tachiyomi.extension.id.natsu",
-    "apk": "tachiyomi-id.natsu-v1.4.28.apk",
+    "apk": "tachiyomi-id.natsu-v1.4.29.apk",
     "lang": "id",
-    "code": 28,
-    "version": "1.4.28",
+    "code": 29,
+    "version": "1.4.29",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
