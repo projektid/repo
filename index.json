@@ -2614,6 +2614,48 @@
     ]
   },
   {
+    "name": "Tachiyomi: Asura Scans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.asurascans",
+    "apk": "tachiyomi-en.asurascans-v1.4.29.apk",
+    "lang": "en",
+    "code": 29,
+    "version": "1.4.29",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Asura Scans",
+        "lang": "en",
+        "id": "6247824327199706550",
+        "baseUrl": "https://asuratoon.com",
+        "versionId": 1,
+        "hasCloudflare": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Asura Scans X",
+    "pkg": "eu.kanade.tachiyomi.extension.en.asurascansx",
+    "apk": "tachiyomi-en.asurascansx-v1.4.29.apk",
+    "lang": "en",
+    "code": 29,
+    "version": "1.4.29",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Asura Scans X",
+        "lang": "en",
+        "id": "6694272628475835150",
+        "baseUrl": "https://asuratoon.com",
+        "versionId": 1,
+        "hasCloudflare": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Doujins",
     "pkg": "eu.kanade.tachiyomi.extension.en.doujins",
     "apk": "tachiyomi-en.doujins-v1.4.5.apk",
@@ -2631,6 +2673,27 @@
         "baseUrl": "https://doujins.com",
         "versionId": 1,
         "hasCloudflare": 0
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Reaper Scans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.reaperscans",
+    "apk": "tachiyomi-en.reaperscans-v1.4.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Reaper Scans",
+        "lang": "en",
+        "id": "8918520211459944430",
+        "baseUrl": "https://reaperscans.com",
+        "versionId": 1,
+        "hasCloudflare": 1
       }
     ]
   },
