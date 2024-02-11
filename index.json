@@ -2790,26 +2790,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: KomikFan",
-    "pkg": "eu.kanade.tachiyomi.extension.id.komikfan",
-    "apk": "tachiyomi-id.komikfan-v1.4.1.apk",
-    "lang": "id",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "KomikFan",
-        "lang": "id",
-        "id": "8634129511536089444",
-        "baseUrl": "https://komikfan.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: KomikGan",
     "pkg": "eu.kanade.tachiyomi.extension.id.komikgan",
     "apk": "tachiyomi-id.komikgan-v1.4.1.apk",
