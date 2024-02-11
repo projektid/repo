@@ -31,7 +31,7 @@
         Nsfw: "nsfw",
     }
 
-    document.addEventListener("alpine:init", () => {
+    document.addEventListener("alpine:init", async () => {
         Alpine.store("repoUrl", "https://raw.githubusercontent.com/projektid/repo/repo");
 
         Alpine.data("extensionList", () => ({
@@ -49,35 +49,23 @@
 
             async init() {
                 try {
-                    const index = await fetch(`${Alpine.store("repoUrl")}/index.min.json`).then((e) => e.json());
+                    const response = await fetch(`${Alpine.store("repoUrl")}/index.min.json`);
+                    const index = await response.json();
 
-                    this.extensions = index.sort((a, b) => {
-                        if ("all" === a.lang && "all" !== b.lang) {
-                            return -1;
-                        }
+                    const batchSize = 100;
+                    let startIndex = 0;
+                    while (startIndex < index.length) {
+                        const endIndex = Math.min(startIndex + batchSize, index.length);
+                        const batch = index.slice(startIndex, endIndex);
 
-                        if ("all" !== a.lang && "all" === b.lang) {
-                            return 1;
-                        }
+                        this.extensions.push(...batch);
+                        startIndex += batchSize;
+                    }
 
-                        if ("en" === a.lang && "en" !== b.lang) {
-                            return -1
-                        }
-
-                        if ("en" === b.lang && "en" !== a.lang) {
-                            return 1;
-                        }
-
-                        const langA = simpleLanguageName(a.lang);
-                        const langB = simpleLanguageName(b.lang);
-
-                        return langA.localeCompare(langB) || a.name.localeCompare(b.name);
-                    });
-                    this.languages = [...new Set(this.extensions.map((e) => e.lang))];
+                    this.languages = this.extractLanguages(this.extensions);
                     this.loading = LoadingStatus.Loaded;
                 } catch (e) {
-                    console.error(e);
-
+                    console.error("Failed to fetch extension data:", e);
                     this.loading = LoadingStatus.Error;
                 }
 
@@ -90,21 +78,40 @@
                 });
             },
 
+            sortExtensions(index) {
+                return index.sort((a, b) => {
+                    if ("all" === a.lang && "all" !== b.lang) {
+                        return -1;
+                    }
+                    if ("all" !== a.lang && "all" === b.lang) {
+                        return 1;
+                    }
+                    if ("en" === a.lang && "en" !== b.lang) {
+                        return -1;
+                    }
+                    if ("en" === b.lang && "en" !== a.lang) {
+                        return 1;
+                    }
+
+                    const langA = simpleLanguageName(a.lang);
+                    const langB = simpleLanguageName(b.lang);
+
+                    return langA.localeCompare(langB) || a.name.localeCompare(b.name);
+                });
+            },
+
+            extractLanguages(extensions) {
+                return [...new Set(extensions.map((e) => e.lang))];
+            },
+
             updateFilteredList() {
-                this.filtered = this.extensions
-                    .filter(
-                        (e) => !this.query
-                            || e.name.toLowerCase().includes(this.query.toLowerCase())
-                            || e.pkg.toLowerCase().includes(this.query.toLowerCase()),
-                    )
-                    .filter(
-                        (e) => this.nsfw === NsfwOption.All
-                            || (this.nsfw === NsfwOption.Nsfw ? e.nsfw : !e.nsfw),
-                    )
-                    .filter(
-                        (e) =>
-                            !this.selectedLanguages.length || this.selectedLanguages.includes(e.lang)
-                    );
+                this.filtered = this.extensions.filter(
+                    (e) => !this.query || e.name.toLowerCase().includes(this.query.toLowerCase()) || e.pkg.toLowerCase().includes(this.query.toLowerCase())
+                ).filter(
+                    (e) => this.nsfw === NsfwOption.All || (this.nsfw === NsfwOption.Nsfw ? e.nsfw : !e.nsfw)
+                ).filter(
+                    (e) => !this.selectedLanguages.length || this.selectedLanguages.includes(e.lang)
+                );
             },
         }))
     });

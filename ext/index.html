@@ -91,7 +91,7 @@
                     </sl-select>
                 </div>
                 
-                <template x-for="extension in filtered" :key="extension.pkg">
+                <template x-for="extension in filtered" :key="">
                     <div class="source" 
                         :id="extension.pkg.replace('eu.kanade.tachiyomi.extension.', '')">
                         <a :href="`#${extension.pkg.replace('eu.kanade.tachiyomi.extension.', '')}`"
