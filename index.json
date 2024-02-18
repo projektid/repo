@@ -2510,6 +2510,26 @@
     ]
   },
   {
+    "name": "Tachiyomi: Comicsekai",
+    "pkg": "eu.kanade.tachiyomi.extension.id.comicsekai",
+    "apk": "tachiyomi-id.comicsekai-v1.4.29.apk",
+    "lang": "id",
+    "code": 29,
+    "version": "1.4.29",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Comicsekai",
+        "lang": "id",
+        "id": "503025696776018563",
+        "baseUrl": "http://www.comicsekai.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: CosmicScans.id",
     "pkg": "eu.kanade.tachiyomi.extension.id.cosmicscansid",
     "apk": "tachiyomi-id.cosmicscansid-v1.4.32.apk",
