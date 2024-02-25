@@ -2852,10 +2852,10 @@
   {
     "name": "Tachiyomi: Komikid",
     "pkg": "eu.kanade.tachiyomi.extension.id.komikid",
-    "apk": "tachiyomi-id.komikid-v1.4.7.apk",
+    "apk": "tachiyomi-id.komikid-v1.4.8.apk",
     "lang": "id",
-    "code": 7,
-    "version": "1.4.7",
+    "code": 8,
+    "version": "1.4.8",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4032,10 +4032,10 @@
   {
     "name": "Tachiyomi: Shinigami",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigami",
-    "apk": "tachiyomi-id.shinigami-v1.4.48.apk",
+    "apk": "tachiyomi-id.shinigami-v1.4.49.apk",
     "lang": "id",
-    "code": 48,
-    "version": "1.4.48",
+    "code": 49,
+    "version": "1.4.49",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4044,7 +4044,7 @@
         "name": "Shinigami",
         "lang": "id",
         "id": "3411809758861089969",
-        "baseUrl": "https://s1.shinigami.cx",
+        "baseUrl": "https://home.shinigami.cx",
         "versionId": 1
       }
     ]
@@ -4052,10 +4052,10 @@
   {
     "name": "Tachiyomi: Shinigami X",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigamix",
-    "apk": "tachiyomi-id.shinigamix-v1.4.6.apk",
+    "apk": "tachiyomi-id.shinigamix-v1.4.7.apk",
     "lang": "id",
-    "code": 6,
-    "version": "1.4.6",
+    "code": 7,
+    "version": "1.4.7",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4064,7 +4064,7 @@
         "name": "Shinigami X",
         "lang": "id",
         "id": "8285234031960655796",
-        "baseUrl": "https://s1.shinigami.cx",
+        "baseUrl": "https://home.shinigami.cx",
         "versionId": 1
       }
     ]
