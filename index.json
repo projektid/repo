@@ -2430,6 +2430,26 @@
     ]
   },
   {
+    "name": "Tachiyomi: APKOMIK",
+    "pkg": "eu.kanade.tachiyomi.extension.id.apkomik",
+    "apk": "tachiyomi-id.apkomik-v1.4.31.apk",
+    "lang": "id",
+    "code": 31,
+    "version": "1.4.31",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "APKOMIK",
+        "lang": "id",
+        "id": "6001354913238297546",
+        "baseUrl": "https://apkomik.cc",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: BacaKomik",
     "pkg": "eu.kanade.tachiyomi.extension.id.bacakomik",
     "apk": "tachiyomi-id.bacakomik-v1.4.10.apk",
@@ -2745,26 +2765,6 @@
         "lang": "id",
         "id": "8867951597466474936",
         "baseUrl": "https://klmanhua.blogspot.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Komik AV",
-    "pkg": "eu.kanade.tachiyomi.extension.id.komikav",
-    "apk": "tachiyomi-id.komikav-v1.4.30.apk",
-    "lang": "id",
-    "code": 30,
-    "version": "1.4.30",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "Komik AV (WP Manga Stream)",
-        "lang": "id",
-        "id": "7875815514004535629",
-        "baseUrl": "https://komikav.com",
         "versionId": 1
       }
     ]
