@@ -3230,6 +3230,26 @@
     ]
   },
   {
+    "name": "Tachiyomi: Mangadop",
+    "pkg": "eu.kanade.tachiyomi.extension.id.mangadop",
+    "apk": "tachiyomi-id.mangadop-v1.4.29.apk",
+    "lang": "id",
+    "code": 29,
+    "version": "1.4.29",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Mangadop",
+        "lang": "id",
+        "id": "4265995612395036619",
+        "baseUrl": "https://mangadop.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: MangaID",
     "pkg": "eu.kanade.tachiyomi.extension.id.mangaid",
     "apk": "tachiyomi-id.mangaid-v1.4.8.apk",
