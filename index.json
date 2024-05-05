@@ -3232,11 +3232,11 @@
   {
     "name": "Tachiyomi: Mangadop",
     "pkg": "eu.kanade.tachiyomi.extension.id.mangadop",
-    "apk": "tachiyomi-id.mangadop-v1.4.29.apk",
+    "apk": "tachiyomi-id.mangadop-v1.4.30.apk",
     "lang": "id",
-    "code": 29,
-    "version": "1.4.29",
-    "nsfw": 0,
+    "code": 30,
+    "version": "1.4.30",
+    "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
     "sources": [
