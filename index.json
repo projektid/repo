@@ -3992,10 +3992,10 @@
   {
     "name": "Tachiyomi: Sekte Komik",
     "pkg": "eu.kanade.tachiyomi.extension.id.sektekomik",
-    "apk": "tachiyomi-id.sektekomik-v1.4.30.apk",
+    "apk": "tachiyomi-id.sektekomik-v1.4.27.apk",
     "lang": "id",
-    "code": 30,
-    "version": "1.4.30",
+    "code": 27,
+    "version": "1.4.27",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4012,10 +4012,10 @@
   {
     "name": "Tachiyomi: Sekte Komik",
     "pkg": "eu.kanade.tachiyomi.extension.id.sektekomik",
-    "apk": "tachiyomi-id.sektekomik-v1.4.27.apk",
+    "apk": "tachiyomi-id.sektekomik-v1.4.30.apk",
     "lang": "id",
-    "code": 27,
-    "version": "1.4.27",
+    "code": 30,
+    "version": "1.4.30",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4072,10 +4072,10 @@
   {
     "name": "Tachiyomi: Shinigami X",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigamix",
-    "apk": "tachiyomi-id.shinigamix-v1.4.11.apk",
+    "apk": "tachiyomi-id.shinigamix-v1.4.12.apk",
     "lang": "id",
-    "code": 11,
-    "version": "1.4.11",
+    "code": 12,
+    "version": "1.4.12",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4084,7 +4084,7 @@
         "name": "Shinigami X",
         "lang": "id",
         "id": "8285234031960655796",
-        "baseUrl": "https://shinigami.cx",
+        "baseUrl": "https://shinigami03.com",
         "versionId": 1
       }
     ]
