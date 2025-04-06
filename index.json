@@ -1,5 +1,46 @@
 [
   {
+    "name": "Tachiyomi: NHentai",
+    "pkg": "eu.kanade.tachiyomi.extension.all.nhentai",
+    "apk": "tachiyomi-all.nhentai-v1.4.51.apk",
+    "lang": "all",
+    "code": 51,
+    "version": "1.4.51",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "NHentai",
+        "lang": "en",
+        "id": "3122156392225024195",
+        "baseUrl": "https://nhentai.net",
+        "versionId": 1
+      },
+      {
+        "name": "NHentai",
+        "lang": "ja",
+        "id": "4726175775739752699",
+        "baseUrl": "https://nhentai.net",
+        "versionId": 1
+      },
+      {
+        "name": "NHentai",
+        "lang": "zh",
+        "id": "2203215402871965477",
+        "baseUrl": "https://nhentai.net",
+        "versionId": 1
+      },
+      {
+        "name": "NHentai",
+        "lang": "all",
+        "id": "7309872737163460316",
+        "baseUrl": "https://nhentai.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Asura Scans X",
     "pkg": "eu.kanade.tachiyomi.extension.en.asurascansx",
     "apk": "tachiyomi-en.asurascansx-v1.4.45.apk",
