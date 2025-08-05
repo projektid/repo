@@ -798,10 +798,10 @@
   {
     "name": "Tachiyomi: BacaKomik",
     "pkg": "eu.kanade.tachiyomi.extension.id.bacakomik",
-    "apk": "tachiyomi-id.bacakomik-v1.4.11.apk",
+    "apk": "tachiyomi-id.bacakomik-v1.4.12.apk",
     "lang": "id",
-    "code": 11,
-    "version": "1.4.11",
+    "code": 12,
+    "version": "1.4.12",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -810,7 +810,7 @@
         "name": "BacaKomik",
         "lang": "id",
         "id": "4383360263234319058",
-        "baseUrl": "https://bacakomik.one",
+        "baseUrl": "https://bacakomik.my",
         "versionId": 1
       }
     ]
@@ -856,6 +856,66 @@
     ]
   },
   {
+    "name": "Tachiyomi: Komikindo",
+    "pkg": "eu.kanade.tachiyomi.extension.id.komikindo",
+    "apk": "tachiyomi-id.komikindo-v1.4.32.apk",
+    "lang": "id",
+    "code": 32,
+    "version": "1.4.32",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Komikindo",
+        "lang": "id",
+        "id": "1210328269637877420",
+        "baseUrl": "https://komikindo4.link",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: KomikIndo.co",
+    "pkg": "eu.kanade.tachiyomi.extension.id.komikindoco",
+    "apk": "tachiyomi-id.komikindoco-v1.4.35.apk",
+    "lang": "id",
+    "code": 35,
+    "version": "1.4.35",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "KomikIndo.co",
+        "lang": "id",
+        "id": "734619124437406170",
+        "baseUrl": "https://komiksin.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: KomikIndoID",
+    "pkg": "eu.kanade.tachiyomi.extension.id.komikindoid",
+    "apk": "tachiyomi-id.komikindoid-v1.4.16.apk",
+    "lang": "id",
+    "code": 16,
+    "version": "1.4.16",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "KomikIndoID",
+        "lang": "id",
+        "id": "5384836574731339537",
+        "baseUrl": "https://komikindo.rip",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Shinigami X",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigamix",
     "apk": "tachiyomi-id.shinigamix-v1.4.17.apk",
@@ -871,6 +931,26 @@
         "lang": "id",
         "id": "8285234031960655796",
         "baseUrl": "https://app.shinigami.asia",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: West Manga",
+    "pkg": "eu.kanade.tachiyomi.extension.id.westmanga",
+    "apk": "tachiyomi-id.westmanga-v1.4.36.apk",
+    "lang": "id",
+    "code": 36,
+    "version": "1.4.36",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "West Manga",
+        "lang": "id",
+        "id": "8883916630998758688",
+        "baseUrl": "https://westmanga.me",
         "versionId": 1
       }
     ]
