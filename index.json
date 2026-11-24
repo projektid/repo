@@ -918,10 +918,10 @@
   {
     "name": "Tachiyomi: Shinigami X",
     "pkg": "eu.kanade.tachiyomi.extension.id.shinigamix",
-    "apk": "tachiyomi-id.shinigamix-v1.4.24.apk",
+    "apk": "tachiyomi-id.shinigamix-v1.4.25.apk",
     "lang": "id",
-    "code": 24,
-    "version": "1.4.24",
+    "code": 25,
+    "version": "1.4.25",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
